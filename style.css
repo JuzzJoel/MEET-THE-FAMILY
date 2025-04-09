@@ -1,0 +1,114 @@
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FAF9F6;
+}
+title {
+  font-family: 'Plus Jarkata Sans';
+  font-size: 24px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+}
+.column{
+float: left;
+width: calc(100% / 5 - 16px) ;
+padding: 0 8px;
+margin-bottom: 20px;
+}
+.card{
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+transition: 0.3s;
+border-radius: 10px;
+overflow: hidden;
+}
+.card:hover{
+  transform: scale(1.04);
+}
+.container{
+ padding: 0 16px;
+ width: 80%;
+}
+img{
+width: 100%;
+height: calc(100% - 1000px);
+}
+.title {
+    color: darkgray;
+  }
+ 
+p{
+  padding: 0 0 15px;
+}
+h1{
+  font-size: 50px;
+  font-weight: 700;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+h2{
+  font-size: 25px;
+  font-weight: 500;
+  color: #333;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Updated navigation styles */
+nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0 40px;
+}
+
+.nav-list{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  gap: 20px;
+  list-style: none;
+  justify-content: center; /* Center the list items */
+}
+
+.nav-list li a {
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+ 
+.nav-list li a:hover {
+  background-color: #dfe8df;
+}
+
+.btn-primary{
+  background-color: darkblue;
+  color: white; /* Added text color for better visibility */
+}
+
+.btn-clear{
+  background-color: white;
+  color: #333; /* Fixed text color to be visible */
+  border: 1px solid #ddd; /* Added border for the clear button */
+}
+
+
+.title{
+    text-align: center;
+}
+
+
+.names{
+    text-align: center;
+}
+
+@media screen and (max-width: 650px) {
+    .column {
+      width: 100%;
+      display: block;
+    }
+  }
